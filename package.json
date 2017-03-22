@@ -1,0 +1,21 @@
+{
+  "name": "optimizely-slack",
+  "version": "1.0.0",
+  "description": "Slack integration for Optimizely",
+  "main": "index.js",
+  "author": "Ramon Garcia",
+  "license": "MIT",
+  "scripts": {
+    "serve": "nodemon index.js"
+  },
+  "dependencies": {
+    "apisauce": "^0.11.0",
+    "axios": "^0.15.3",
+    "nedb": "^1.8.0",
+    "slackbots": "^1.0.2",
+    "sqlite3": "^3.1.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
