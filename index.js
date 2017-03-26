@@ -8,7 +8,7 @@ if (!process.env.UPDATE_CHANNEL) {
 }
 
 // Interval to listen for changes.
-global.listenInterval = 5000;
+global.listenInterval = 60000;
 
 // Making the bot global to avoid multiple instanciation.
 global.bot = new Bot(require('./config/bot'));
